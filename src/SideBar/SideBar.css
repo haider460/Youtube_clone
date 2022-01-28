@@ -3,13 +3,13 @@
 /* ********************* */
 .nav-sidebar {
     position: fixed;
-    top: 7rem;
+    top: 6rem;
     left: 0px;
     width: 8rem;
     z-index: 10;
     text-align: center;
     height: 100vh;
-    padding: 1.7rem 0;
+    padding: 2.3rem 0;
     background-color: #fff;
 }
 @media only screen and (max-width: 887px) {
@@ -64,6 +64,7 @@
     margin: 0rem 2.8rem;
     height: 6.5rem;
     align-items: center;
+    margin-right: 1rem;
 }
 
 .sidebar__bars-icon {
@@ -82,9 +83,7 @@
     height: 90vh;
     overflow-y: scroll;
     width: 100%;
-    margin: 1rem 0;
-    margin-right: 0.5rem;
-    /* padding: 1rem 2.5rem; */
+    margin: 1rem 1rem 1rem 0;
 }
 .sidebar-list-active {
     font-weight: 600;

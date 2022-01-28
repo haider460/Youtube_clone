@@ -1,3 +1,51 @@
+.first__nav {
+    height: 6.5rem;
+    z-index: 0;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+.second__nav {
+    height: 6rem;
+    z-index: 0;
+    margin-right: 4rem;
+    margin-left: 10rem;
+    border-bottom: 1px solid rgb(230, 230, 230);
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    margin: 0.5rem 3rem 0.5rem 8rem;
+    overflow-y: hidden;
+}
+
+.greater {
+    position: absolute;
+    top: 0.5rem;
+    right: 2rem;
+    background-color: rgb(255, 255, 255);
+    z-index: 20;
+    display: flex;
+    align-items: center;
+}
+.horizentel__scroll {
+    display: inline-block;
+}
+
+.second__nav::-webkit-scrollbar-thumb {
+    width: 0;
+}
+
+.scroll-text {
+    font-size: 1.5rem;
+    background-color: rgba(212, 212, 212, 0.5);
+    border: 1px solid rgb(202, 202, 202);
+    padding: 0 1.2rem;
+    border-radius: 1.4rem;
+    display: flex;
+    align-items: center;
+    height: 4rem;
+    margin-top: 0.8rem;
+    margin-right: 1rem;
+}
 .nav-container {
     width: 96%;
     margin: 0 auto;
@@ -84,10 +132,11 @@
     background-color: rgb(235, 235, 235);
 }
 
-.youtube-mic_icon {
+.nav-icon {
     font-size: 2rem;
     display: inline-block !important;
     color: var(--icons-color);
+    cursor: pointer;
 }
 
 .nav-icons {
