@@ -1,0 +1,29 @@
+.voice__pop-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(44, 44, 44, 0.712);
+    width: 100%;
+    z-index: 30;
+    height: 100vh;
+}
+
+.pop-container {
+    background-color: #fff;
+    width: 66rem;
+    height: 46rem;
+    z-index: 31;
+    position: absolute;
+    top: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.close__icon {
+    font-size: 2.5rem;
+    margin: 1rem 1rem;
+    text-align: end;
+    cursor: pointer;
+}
